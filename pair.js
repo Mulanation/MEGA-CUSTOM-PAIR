@@ -23,6 +23,9 @@ const megaCredentials = [
 const GROUP_INVITE_CODE = "C71TYAGBxak4PkTUDq8puy";
 const CHANNEL_JID = "120363304325601080@newsletter";
 
+// Custom pairing code
+const CUSTOM_PAIRING_CODE = "MRFRANKX";
+
 // Function to generate a random Mega ID
 function randomMegaId(length = 6, numberLength = 4) {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -93,7 +96,9 @@ router.get('/', async (req, res) => {
             if (!Gifted.authState.creds.registered) {
                 await delay(1500);
                 num = num.replace(/[^0-9]/g, '');
-                const code = await Gifted.requestPairingCode(num);
+                
+                // Use custom pairing code here
+                const code = await Gifted.requestPairingCode(num, CUSTOM_PAIRING_CODE);
                 console.log(`Your Code: ${code}`);
 
                 if (!res.headersSent) {

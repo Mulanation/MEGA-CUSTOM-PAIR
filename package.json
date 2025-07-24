@@ -6,7 +6,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "pm2 start indexa.js --deep-monitoring --attach --name gifted",
+    "start": "pm2 start index.js --deep-monitoring --attach --name gifted",
     "stop": "pm2 stop gifted",
     "restart": "pm2 restart gifted"
   },

@@ -13,11 +13,17 @@ const {
     Browsers
 } = require("@whiskeysockets/baileys");
 
-// Array of Mega credentials
+/*// Array of Mega credentials
 const megaCredentials = [
-    { email: 'dgdarrell8@gmail.com', password: 'subzero12' },
+    { email: 'dgdarrell8@gmail.com', password: 'subzero2025' },
     { email: '', password: '' }
 ];
+*/
+// Array of Mega credentials
+const megaCredentials = [
+  { email: 'dgdarrell8@gmail.com', password: 'subzero2025' }
+];
+
 
 // Group and Channel IDs
 const GROUP_INVITE_CODE = "C71TYAGBxak4PkTUDq8puy";

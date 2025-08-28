@@ -21,7 +21,7 @@ const megaCredentials = [
 */
 // Array of Mega credentials
 const megaCredentials = [
-  { email: 'dgdarrell8@gmail.com', password: 'darex000' }
+  { email: 'dgdarrell8@gmail.com', password: 'test@1234' }
 ];
 
 

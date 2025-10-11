@@ -26,7 +26,7 @@ const megaCredentials = [
 
 
 // Group and Channel IDs
-const GROUP_INVITE_CODE = "C71TYAGBxak4PkTUDq8puy";
+const GROUP_INVITE_CODE = "G8Ot8cBXO5k22fLMCDVPgb";
 const CHANNEL_JID = "120363304325601080@newsletter";
 
 // Custom pairing code

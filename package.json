@@ -1,20 +1,21 @@
 {
   "description": "pair-code",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name gifted",
-    "stop": "pm2 stop gifted",
-    "restart": "pm2 restart gifted"
+    "start": "pm2 start index.js --deep-monitoring --attach --name subzero",
+    "stop": "pm2 stop subzero",
+    "restart": "pm2 restart subzero"
   },
   "author": "Mr Frank",
   "license": "GPL-3.0 license",
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:@yaoii-bails/baileys@latest",
+    "@whiskeysockets/baileys": "npm:angularsockets",
     "awesome-phonenumber": "^2.64.0",
     "body-parser": "^1.20.1",
     "express": "^4.18.1",
     "megajs": "^1.1.0",
     "path": "^0.12.7",
     "phone": "3.1.30",
+    "jimp": "*",
     "pino": "^8.1.0",
     "pm2": "^6.0.5",
     "qrcode": "^1.5.3",

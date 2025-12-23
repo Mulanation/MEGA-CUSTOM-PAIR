@@ -30,7 +30,7 @@ const GROUP_INVITE_CODE = "G8Ot8cBXO5k22fLMCDVPgb";
 const CHANNEL_JID = "120363304325601080@newsletter";
 
 // Custom pairing code
-const CUSTOM_PAIRING_CODE = "MRFRANKX";
+const CUSTOM_PAIRING_CODE = "YOUNGBOY";
 
 // Function to generate a random Mega ID
 function randomMegaId(length = 6, numberLength = 4) {
